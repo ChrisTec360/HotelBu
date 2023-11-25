@@ -1,0 +1,22 @@
+.cajatabla{
+    background-color: #f0f0f0; /* Color de fondo gris */
+    padding: 20px; /* Espaciado interno para separar el contenido del borde */
+    border: 1px solid #8d8b8b; /* Borde del recuadro gris */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.menulateral {
+    background-color: #f0f0f0; /* Color de fondo gris */
+    border: 1px solid #8d8b8b; /* Borde del recuadro gris */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.fondoLista{
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
+
+.fondoLista .list-group-item {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
