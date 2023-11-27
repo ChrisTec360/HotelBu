@@ -5,7 +5,7 @@
 }
 
 .container {
-    background: url("/img/imagen_hotel.jpg");
+    background: url("../../imagenes/imagen_hotel.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
