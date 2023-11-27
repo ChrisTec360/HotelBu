@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url("/img/imagen_hotel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.sombreado {
+    background-color: rgba(12, 12, 12, 0.466);
+    border-radius: 3%;
+    width: 57%;
+    height: 100%;
+}
+
+.subcontainer {
+    position: absolute;
+    top: 10%;
+    padding: 2%;
+    width: 35%;
+    left: 10%;
+    height: 90%;
+    border-radius: 5%;
+    background-color: rgba(3, 3, 3, 0.45);
+}
+
+form {
+
+    background-color: rgb(255, 255, 255);
+    padding: 15%;
+}
+
+.perfil {
+    position: relative;
+    left: 30%;
+    height: 40%;
+    margin-bottom: 5%;
+    width: 40%;
+    text-align: center;
+}
+
+
+.form-group input {
+    margin-top: 0;
+    margin-bottom: 15%;
+    width: 100%;
+    display: block;
+    border-top: 1px;
+    border-color: #3c89e1ae;
+    color: #3C88E1;
+}
+.form-group label {
+    font-family: Verdana, Geneva, 3C88E1Tahoma, sans-serif;
+    font-size: 22px;
+}
+.btn{
+    position: relative;
+    left: 20%;
+    width: 50%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #1B396A;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.btn-registrar{
+    position: relative;
+    left: 20%;
+    width: 50%;
+    padding: 2%;
+    
+    border-radius: 10px;
+    
+    border: 2px solid #1B396A;
+    color: rgb(0, 0, 0);
+}
+a{
+    position: relative;
+    left: 17%;
+    top: 15px;
+}
