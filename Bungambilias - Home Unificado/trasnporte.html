@@ -1,0 +1,152 @@
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/css/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+       <script src="js/carru.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+        <title>index</title>
+    
+</head>
+
+<body  >
+
+
+<!--CARRUCEL-->
+    <div class="contenedor">
+    <!--MENU DESPEGABLE-->
+    <nav class="navbar" style="background-color: rgb(89, 86, 79,0.5)">
+        <div class="container-fluid">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFF00" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <!--IDIOMA-->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Idioma
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item active" href="#">MX <img src="bootsIcons/mexico.png" alt="español"></a></li>
+                    <li><a class="dropdown-item" href="#">EN <img src="bootsIcons/eua.png" alt="ingles"></a></li>
+                    <li><a class="dropdown-item" href="#">BR <img src="bootsIcons/brasil.png" alt="brasil"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--MENU DESPLEGABLE-->
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel" style="background-color: black">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="staticBackdropLabel" style="color: white">
+                    <i class="bi bi-flower1"></i> BUGAMBILIAS
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                    style="background-color: white"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div style="color: white">
+                    <h4>SERVICIOS</h4>
+                </div>
+
+                <ul class="list-group fondoLista">
+                    <li class="list-group-item">
+                        <i class="bi bi-door-closed"></i> HABITACIÓN
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-taxi-front"></i> TRANSPORTE
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-cup-straw"></i> ALIMENTOS
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-globe-americas"></i> TURISMO
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-film"></i> DIVERSIÓN
+                    </li>
+                </ul>
+                <a href="https://twitter.com/"><i class="bi bi-x-lg" style="font-size: 2rem; color: white"></i></a>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram bi-lg"
+                        style="font-size: 2rem; color: white"></i></a>
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook bi-lg"
+                        style="font-size: 2rem; color: white"></i></a>
+                <a href="https://web.telegram.org/k/"><i class="bi bi-telegram"
+                        style="font-size: 2rem; color: white"></i></a>
+            </div>
+        </div>
+        <!--TERMINA MENÚ DESPLEGABLE-->
+    </nav>
+     
+        <div class="slides">
+            
+            <div class="atras botones">
+                &#60 
+            </div>
+            <div class="adelante botones">
+                &#62
+            </div>
+            <img  class="imgCarrucel" src="img/hotel.jpeg" alt="Imagen 3">
+        </div>
+    </div>
+    <script src="js/carrucel.js"></script>
+<!--TERMINA EL CARRUCEL-->
+
+    <script src="js/carrucel.js"> </script>
+
+    <div class="caja-principal">
+        <div class="caja-informacion1">
+            <img  class="imgContenido" src="img/imagen_hotel.jpg" alt="imagen_hotel">
+            
+            <h3>Conócenos</h3>
+            <p>El Hotel Negresco (5 estrellas) en Niza, Francia. El Hotel Kämp (5 estrellas) en Helsinki, Finlandia. Un hotel es un edificio planificado y acondicionado para otorgar servicios de alojamiento a las personas y que permite a los visitantes sus desplazamientos
+
+            </p>
+            </div>
+        <h1 class="title">Servicios </h1>
+        <div class="caja-informacion2">
+            <div class="cards">
+                <img  src="img/trasporte.svg" alt="">
+                <h4>Transporte</h4>
+                <a href="">Obtener Servicio...</a>
+                
+            </div>
+            <div class="cards">
+                <img src="img/restaurante.svg" alt="">
+                <h4>Reservas</h4>
+                
+                <a href="">Obtener Servicio...</a>
+                
+            </div>
+            <div class="cards">
+                <img src="img/cake.svg" alt="">
+                <h4>restaurante</h4>
+                <a href="">Obtener Servicio...</a>
+                
+            </div>
+            <div class="cards">
+                <img src="img/diversion.svg" alt="">
+                <h4>Diversion</h4>
+                <a href="">Obtener Servicio...</a>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
