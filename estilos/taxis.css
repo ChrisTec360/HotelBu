@@ -78,12 +78,15 @@ html{
 
 /*Estilos del container*/
 .caja-principal{
+    background-image: url(../imagenes/arcoirisz.jpeg);
+    background-repeat: no-repeat;
+    background-size:100%;
     position: relative;
     top: 15%;
     left: 7%;
     right: 10%;
-    width: 85%;
-    height: 80%;
+    width: 1280px;
+    height: 70%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Propiedad de sombra */
     
 }
@@ -130,76 +133,4 @@ p{
     text-align:justify;
     left: 10%;
     
-}
-.caja-informacion2{
-    width: 100%;
-    height: 50%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-
-/*segundo bloque caja_informacion2*/
-.title{
-    text-align: center;
-    font-size: 40px;
-    color: #5d5d5d;
-    margin-top: 25px;
-    font-weight: 200;
-    font-family: 'Roboto', sans-serif;
-}
-.caja-informacion2{
-    width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    display:flex;
-    flex-wrap: wrap;
-
-    justify-content: center;
-    margin: auto;
-}
-
-.caja-informacion2 .cards{
-    width: 200px;
-    height: 300px;
-    border-radius: 8px;
-    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-}
-
-.caja-informacion2 .cards:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
-}
-
-.caja-informacion2 .cards img{
-    width: 80px;
-    height: 150px;
-    margin-right: 60px;
-   
-}
-
-
-.caja-informacion2 .cards h4{
-    font-weight: 600;
-    
-}
-
-.caja-informacion2 .cards p{
-    
-    font-size: 12px;
-    font-weight: 300;
-}
-
-.caja-informacion2.cards a {
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #3498db;
 }
