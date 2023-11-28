@@ -83,7 +83,7 @@ html{
     left: 7%;
     right: 10%;
     width: 85%;
-    height: 125%;
+    height: 80%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Propiedad de sombra */
     
 }
@@ -109,7 +109,18 @@ h3{
     height: 10%;
     top: 3rem;
 }
-
+.text-principal{
+    margin-top: 80px;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text{
+    width: 85%;
+    position: relative;
+    left: 5%;
+    right: 10%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
 p{
     font-family: initial;
     position: relative;
@@ -192,4 +203,3 @@ p{
     text-decoration: none;
     color: #3498db;
 }
-
