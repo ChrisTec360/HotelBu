@@ -9,34 +9,35 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="sombreado">
             <div class="subcontainer">
-                <form action="#" method="post">
+                <form action="http://localhost:3000/registrar" method="post">
 
                     <div class="form-group">
                         <label for="username" class="control-label">Nombre</label>
                         <i class="bi bi-person"></i>
-                        <input type="name" class="form-control" name="usarname" usuario placeholder="Usuario">
-                    </div>
-                    <div class="form-group">
-                        <label for="lastname" class="control-label">Apellido Materno</label>
-                        <i class="bi bi-person"></i>
-                        <input type="name" class="form-control" name="usarname" usuario placeholder="Apellido Materno">
+                        <input type="text" class="form-control" name="nombreUsuario" usuario placeholder="Nombre">
                     </div>
                     <div class="form-group">
                         <label for="lastname" class="control-label">Apellido Paterno</label>
                         <i class="bi bi-person"></i>
-                        <input type="name" class="form-control" name="usarname" usuario placeholder="Apellido Paterno">
+                        <input type="text" class="form-control" name="apUsuario" usuario placeholder="Apellido Paterno">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname" class="control-label">Apellido Materno</label>
+                        <i class="bi bi-person"></i>
+                        <input type="text" class="form-control" name="amUsuario" usuario placeholder="Apellido Materno">
                     </div>
                     <div class="form-group">
                         <label for="lastname" class="control-label">Correo</label>
                         <i class="bi bi-person"></i>
-                        <input type="email" class="form-control" name="usarname" usuario placeholder="Correo">
+                        <input type="email" class="form-control" name="correoUsuario" usuario placeholder="Correo">
                     </div>
                     <div class="form-group">
                         <label for="password" class="control-label">Contraseña</label>
-                        <input type="password" class="form-control" name="usarname" usuario placeholder="Contraseña">
+                        <input type="password" class="form-control" name="contraUsuario" usuario placeholder="Contraseña">
                     </div>
                     <div class="form-group">
                         <button type="button" class="btn-registrar"style="" onclick="window.location.href='login.html'"> REGRESAR</button>
