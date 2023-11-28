@@ -109,7 +109,18 @@ h3{
     height: 10%;
     top: 3rem;
 }
-
+.text-principal{
+    margin-top: 80px;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text{
+    width: 85%;
+    position: relative;
+    left: 5%;
+    right: 10%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
 p{
     font-family: initial;
     position: relative;
@@ -130,9 +141,8 @@ p{
     justify-content: center;
     margin: auto;
 }
+
 /*segundo bloque caja_informacion2*/
-
-
 .title{
     text-align: center;
     font-size: 40px;
