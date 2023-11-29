@@ -78,40 +78,42 @@ html{
 
 /*Estilos del container*/
 .caja-principal{
-    background-image: url(../imagenes/arcoirisz.jpeg);
+    
+    background-image: url(../imagenes/sitioTaxi.jfif);
     background-repeat: no-repeat;
     background-size:100%;
     position: relative;
     top: 15%;
     left: 7%;
     right: 10%;
-    width: 1280px;
-    height: 70%;
+    width: 85%;
+    height: 65%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Propiedad de sombra */
     
 }
 
 .caja-informacion1{
+    margin-bottom: 50px;
+    color: #fff;
     width: 100%;
     height: 50%;
     align-items: center;
-    
+    height: 100%;
+    background-color: #02273390;
 }
-.imgContenido{
+.sitio{
+    padding: 2% 3%;
+   
     width: 50%;
-    height: 85%;
-    padding: 4%;
+    height: 100%;
+}
+.map{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
     float: right;
-    margin-top: 2%;
 }
-h3{
-    position: relative;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    left: 10%;
-    width: 20%;
-    height: 10%;
-    top: 3rem;
-}
+    
 .text-principal{
     margin-top: 80px;
     
