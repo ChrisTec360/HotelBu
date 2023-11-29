@@ -20,3 +20,6 @@
     background-color: black; /* Fondo negro */
     color: white; /* Texto blanco */
 }
+form{
+    display: inline-block;
+}
