@@ -166,13 +166,13 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="nombre">Nombre del cliente:</label>
-                        <input type="text" class="form-control" name="nombre" required>
+                        <input type="text" class="form-control" name="nombre" id="nombre" required>
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-group">
                         <label for="habitacion">No. de habitación:</label>
-                        <input type="number" class="form-control" name="habitacion" style="width: 132px" required>
+                        <input type="number" class="form-control" name="habitacion" id="habitacion" style="width: 132px" required>
                     </div>
                 </div>
                 <div class="col">
@@ -190,11 +190,11 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="tarifa"><i class="bi bi-cash"></i> Tarifa:</label>
-                        <input type="number" class="form-control" name="tarifa" style="width: 100px" required>
+                        <input type="number" class="form-control" name="tarifaInput" id="tarifaInput" style="width: 100px" value="1" readonly required>
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary" name="btnRegistrado" id="btnRegistrado" onclick="window.location.href='pago.html'">Proceder al pago</button>
+            <button type="submit" class="btn btn-primary" name="btnRegistrado" id="btnRegistrado" disabled>Proceder al pago</button>
         </div>
     </form>
     <!--cierra formulario-->
@@ -229,6 +229,18 @@
     </footer>
 
     <script src="archivosjs/jsmain.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var entradaDateInput = document.getElementById('entradaDate');
+
+            // Obtener la fecha y hora actual en el formato adecuado para el campo datetime-local
+            var fechaActual = new Date().toISOString().slice(0, 16);
+
+            // Establecer la propiedad min del campo de entrada de fecha y hora
+            entradaDateInput.min = fechaActual;
+        });
+    </script>
+    <script src="../archivosjs/calculaTarifa.js"></script>
 </body>
 
 </html>
