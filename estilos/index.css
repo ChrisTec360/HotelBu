@@ -81,7 +81,12 @@ h2{
     left: 10%;
     top: 30%;
 }
-
+button.login{
+    background-color: rgba(255, 145, 0, 0.647);
+    position: relative;
+    right: 100px;
+float: right;
+}
 /*Estilos del container*/
 .caja-principal{
     position: relative;
