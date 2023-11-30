@@ -85,8 +85,12 @@ button.login{
     background-color: rgba(255, 145, 0, 0.647);
     position: relative;
     right: 100px;
+<<<<<<< HEAD
     float: right;
     border-radius: 5px;
+=======
+float: right;
+>>>>>>> 1debc8c22d83471634b6ecba6a602aca901e0153
 }
 /*Estilos del container*/
 .caja-principal{
