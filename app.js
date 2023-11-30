@@ -16,6 +16,7 @@ app.get('/pagar', (req, res) => {
 
     //obtener datos del formulario
     const { nombre, habitacion, entrada, salida, tarifaInput } = req.query;
+    console.log('Datos antes de hacer el pago:', { nombre, habitacion, entrada, salida, tarifaInput });
 
     const producto = {
         name: 'Habitación en Hotel',
@@ -69,7 +70,13 @@ app.get('/pagar', (req, res) => {
 
 // Rutas para éxito y cancelación
 app.get('/exito', (req, res) => {
+    //obtener datos del formulario
+    const { nombre, habitacion, entrada, salida, tarifaInput } = req.query;
+    console.log('Datos en el éxito:', `${nombre}`, habitacion, entrada, salida, tarifaInput );
     res.send('Pago exitoso');
+
+   // res.redirect('/htmls/Home.html');
+
 });
 
 app.get('/cancelar', (req, res) => {
